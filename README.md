@@ -3,15 +3,15 @@
 ### Introduction
 This repository contains the code for replicating results from
 
-* [End-to-end Neural Coreference Resolution](https://homes.cs.washington.edu/~kentonl/pub/lhlz-emnlp.2017.pdf)
+* [End-to-end Neural Coreference Resolution](https://arxiv.org/abs/1707.07045)
 * [Kenton Lee](https://homes.cs.washington.edu/~kentonl), [Luheng He](https://homes.cs.washington.edu/~luheng), [Mike Lewis](https://research.fb.com/people/lewis-mike) and [Luke Zettlemoyer](https://www.cs.washington.edu/people/faculty/lsz)
 * In Proceedings of the Conference on Empirical Methods in Natural Language Process (EMNLP), 2017
 
-A demo of the code can be found here: http://www.kentonl.com/e2e-coref.
+A demo of the code can be found here: http://e2e-coref.kentonl.com.
 
 ### Requirements
-* Python 2.7
-  * TensorFlow 1.0.0
+* Python 3.5
+  * TensorFlow 1.7.0
   * pyhocon (for parsing the configurations)
   * NLTK (for sentence splitting and tokenization in the demo)
 
@@ -44,10 +44,6 @@ A demo of the code can be found here: http://www.kentonl.com/e2e-coref.
 
 * For the command-line demo with the pretrained model:
   * Run `python demo.py final`
-* For the web demo with the pretrained model:
-  * Run `python demo.py final 8080`
-  * Edit the URL at the end of `docs/main.js` to point to the demo location, e.g. `localhost:8080`
-  * Open `docs/index.html` in a web browser.
 * To run the demo with other experiments, replace `final` with your configuration name.
 
 ## Batched Prediction Instructions

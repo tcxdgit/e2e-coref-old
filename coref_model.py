@@ -466,7 +466,7 @@ class CorefModel(object):
       coref_predictions[example["doc_key"]] = self.evaluate_coref(mention_starts, mention_ends, predicted_antecedents, example["clusters"], coref_evaluator)
 
       if example_num % 10 == 0:
-        print "Evaluated {}/{} examples.".format(example_num + 1, len(self.eval_data))
+        print("Evaluated {}/{} examples.".format(example_num + 1, len(self.eval_data)))
 
     summary_dict = {}
     for k, evaluator in sorted(mention_evaluators.items(), key=operator.itemgetter(0)):
@@ -475,19 +475,19 @@ class CorefModel(object):
       for t, v in zip(tags, evaluator.metrics()):
         results_to_print.append("{:<10}: {:.2f}".format(t, v))
         summary_dict[t] = v
-      print ", ".join(results_to_print)
+      print(", ".join(results_to_print))
 
     conll_results = conll.evaluate_conll(self.config["conll_eval_path"], coref_predictions, official_stdout)
     average_f1 = sum(results["f"] for results in conll_results.values()) / len(conll_results)
     summary_dict["Average F1 (conll)"] = average_f1
-    print "Average F1 (conll): {:.2f}%".format(average_f1)
+    print("Average F1 (conll): {:.2f}%".format(average_f1))
 
     p,r,f = coref_evaluator.get_prf()
     summary_dict["Average F1 (py)"] = f
-    print "Average F1 (py): {:.2f}%".format(f * 100)
+    print("Average F1 (py): {:.2f}%".format(f * 100))
     summary_dict["Average precision (py)"] = p
-    print "Average precision (py): {:.2f}%".format(p * 100)
+    print("Average precision (py): {:.2f}%".format(p * 100))
     summary_dict["Average recall (py)"] = r
-    print "Average recall (py): {:.2f}%".format(r * 100)
+    print("Average recall (py): {:.2f}%".format(r * 100))
 
     return util.make_summary(summary_dict), average_f1

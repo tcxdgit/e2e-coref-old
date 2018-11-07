@@ -1,7 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
+<<<<<<< HEAD
     <list default="true" id="6f58c46c-0342-430e-8008-c5f23bb6dada" name="Default" comment="" />
+=======
+    <list default="true" id="6f58c46c-0342-430e-8008-c5f23bb6dada" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo.py" afterPath="$PROJECT_DIR$/demo.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/experiments.conf" afterPath="$PROJECT_DIR$/experiments.conf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/get_char_vocab.py" afterPath="$PROJECT_DIR$/get_char_vocab.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/minimize.py" afterPath="$PROJECT_DIR$/minimize.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/singleton.py" afterPath="$PROJECT_DIR$/singleton.py" />
+    </list>
+>>>>>>> 0be3c504a2cf555e1151085ba64ec14fb9fecc1a
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -14,6 +24,7 @@
     <favorites_list name="e2e-coref" />
   </component>
   <component name="FileEditorManager">
+<<<<<<< HEAD
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file leaf-file-name="coref_model.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/coref_model.py">
@@ -23,10 +34,20 @@
               <folding>
                 <marker date="1535952672649" expanded="true" signature="26545:26602" ph="..." />
               </folding>
+=======
+    <leaf>
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="11" column="16" lean-forward="false" selection-start-line="11" selection-start-column="16" selection-end-line="11" selection-end-column="16" />
+              <folding />
+>>>>>>> 0be3c504a2cf555e1151085ba64ec14fb9fecc1a
             </state>
           </provider>
         </entry>
       </file>
+<<<<<<< HEAD
       <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
@@ -36,15 +57,51 @@
                 <folding />
               </first_editor>
               <second_editor />
+=======
+      <file leaf-file-name="singleton.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/singleton.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="208">
+              <caret line="18" column="14" lean-forward="false" selection-start-line="18" selection-start-column="11" selection-end-line="18" selection-end-column="14" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="util.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/util.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="238">
+              <caret line="21" column="20" lean-forward="true" selection-start-line="21" selection-start-column="20" selection-end-line="21" selection-end-column="20" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="experiments.conf" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/experiments.conf">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="812">
+              <caret line="99" column="17" lean-forward="false" selection-start-line="99" selection-start-column="17" selection-end-line="99" selection-end-column="17" />
+              <folding />
+>>>>>>> 0be3c504a2cf555e1151085ba64ec14fb9fecc1a
+            </state>
+          </provider>
+        </entry>
+      </file>
+<<<<<<< HEAD
       <file leaf-file-name="minimize.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/minimize.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="-428">
               <caret line="100" column="0" lean-forward="false" selection-start-line="100" selection-start-column="0" selection-end-line="100" selection-end-column="0" />
+=======
+      <file leaf-file-name="setup_training.sh" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/setup_training.sh">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="258">
+              <caret line="27" column="1" lean-forward="false" selection-start-line="27" selection-start-column="1" selection-end-line="27" selection-end-column="1" />
+>>>>>>> 0be3c504a2cf555e1151085ba64ec14fb9fecc1a
               <folding />
             </state>
           </provider>
@@ -53,13 +110,19 @@
       <file leaf-file-name="demo.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/demo.py">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
             <state relative-caret-position="626">
               <caret line="46" column="55" lean-forward="false" selection-start-line="46" selection-start-column="55" selection-end-line="46" selection-end-column="55" />
+=======
+            <state relative-caret-position="276">
+              <caret line="74" column="19" lean-forward="false" selection-start-line="74" selection-start-column="19" selection-end-line="74" selection-end-column="19" />
+>>>>>>> 0be3c504a2cf555e1151085ba64ec14fb9fecc1a
               <folding />
             </state>
           </provider>
         </entry>
       </file>
+<<<<<<< HEAD
       <file leaf-file-name="util.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/util.py">
           <provider selected="true" editor-type-id="text-editor">
@@ -73,16 +136,80 @@
                 <marker date="1535952672677" expanded="true" signature="6947:7291" ph="..." />
                 <marker date="1535952672677" expanded="true" signature="7015:7267" ph="..." />
               </folding>
+=======
+      <file leaf-file-name="saver.py" pinned="false" current-in-tab="false">
+        <entry file="file:///usr/local/lib/python2.7/dist-packages/tensorflow/python/training/saver.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="361">
+              <caret line="1475" column="7" lean-forward="false" selection-start-line="1475" selection-start-column="7" selection-end-line="1475" selection-end-column="7" />
+              <folding />
+>>>>>>> 0be3c504a2cf555e1151085ba64ec14fb9fecc1a
             </state>
           </provider>
         </entry>
       </file>
+<<<<<<< HEAD
       <file leaf-file-name="variables.py" pinned="false" current-in-tab="false">
         <entry file="file:///usr/local/lib/python2.7/dist-packages/tensorflow/python/ops/variables.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="502">
               <caret line="1160" column="67" lean-forward="false" selection-start-line="1160" selection-start-column="67" selection-end-line="1160" selection-end-column="67" />
               <folding />
+=======
+      <file leaf-file-name="coref_model.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/coref_model.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="76">
+              <caret line="106" column="31" lean-forward="false" selection-start-line="106" selection-start-column="31" selection-end-line="106" selection-end-column="31" />
+              <folding>
+                <element signature="e#0#15#0" expanded="true" />
+                <marker date="1530686166325" expanded="true" signature="198:26602" ph="..." />
+                <marker date="1530686166325" expanded="true" signature="3566:5685" ph="..." />
+                <marker date="1530686166325" expanded="true" signature="4536:5076" ph="..." />
+                <marker date="1530686166325" expanded="true" signature="4578:5076" ph="..." />
+                <marker date="1530686166325" expanded="true" signature="4690:5003" ph="..." />
+                <marker date="1530686166325" expanded="true" signature="5818:6881" ph="..." />
+                <marker date="1530686166325" expanded="true" signature="7022:11402" ph="..." />
+                <marker date="1530686166325" expanded="true" signature="7369:8179" ph="..." />
+                <marker date="1530686166325" expanded="true" signature="11486:13399" ph="..." />
+                <marker date="1530686166325" expanded="true" signature="11882:12256" ph="..." />
+                <marker date="1530686166325" expanded="true" signature="12292:13304" ph="..." />
+                <marker date="1530686166325" expanded="true" signature="13445:13617" ph="..." />
+                <marker date="1530686166325" expanded="true" signature="13682:14015" ph="..." />
+                <marker date="1530686166325" expanded="true" signature="14172:16953" ph="..." />
+                <marker date="1530686166325" expanded="true" signature="14331:14960" ph="..." />
+                <marker date="1530686166325" expanded="true" signature="14997:15525" ph="..." />
+                <marker date="1530686166325" expanded="true" signature="16157:16356" ph="..." />
+                <marker date="1530686166325" expanded="true" signature="17012:17481" ph="..." />
+                <marker date="1530686166325" expanded="true" signature="17547:20025" ph="..." />
+                <marker date="1530686166325" expanded="true" signature="17818:17973" ph="..." />
+                <marker date="1530686166325" expanded="true" signature="18012:18441" ph="..." />
+                <marker date="1530686166325" expanded="true" signature="18783:19589" ph="..." />
+                <marker date="1530686166325" expanded="true" signature="18824:19186" ph="..." />
+                <marker date="1530686166325" expanded="true" signature="19227:19589" ph="..." />
+                <marker date="1530686166325" expanded="true" signature="20182:21389" ph="..." />
+                <marker date="1530686166325" expanded="true" signature="20485:20533" ph="..." />
+                <marker date="1530686166325" expanded="true" signature="20578:21389" ph="..." />
+                <marker date="1530686166325" expanded="true" signature="20690:21314" ph="..." />
+                <marker date="1530686166325" expanded="true" signature="20710:20794" ph="..." />
+                <marker date="1530686166325" expanded="true" signature="20815:20975" ph="..." />
+                <marker date="1530686166325" expanded="true" signature="20989:21245" ph="..." />
+                <marker date="1530686166325" expanded="true" signature="21461:21731" ph="..." />
+                <marker date="1530686166325" expanded="true" signature="21565:21698" ph="..." />
+                <marker date="1530686166325" expanded="true" signature="21821:22841" ph="..." />
+                <marker date="1530686166325" expanded="true" signature="21943:22626" ph="..." />
+                <marker date="1530686166325" expanded="true" signature="22265:22446" ph="..." />
+                <marker date="1530686166325" expanded="true" signature="22949:23394" ph="..." />
+                <marker date="1530686166325" expanded="true" signature="23077:23140" ph="..." />
+                <marker date="1530686166325" expanded="true" signature="23423:24054" ph="..." />
+                <marker date="1530686166325" expanded="true" signature="23454:24054" ph="..." />
+                <marker date="1530686166325" expanded="true" signature="24109:26602" ph="..." />
+                <marker date="1530686166325" expanded="true" signature="24158:24376" ph="..." />
+                <marker date="1530686166325" expanded="true" signature="24643:25497" ph="..." />
+                <marker date="1530686166325" expanded="true" signature="25608:25891" ph="..." />
+                <marker date="1530686166325" expanded="true" signature="25760:25851" ph="..." />
+              </folding>
+>>>>>>> 0be3c504a2cf555e1151085ba64ec14fb9fecc1a
             </state>
           </provider>
         </entry>
@@ -103,6 +230,7 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
+<<<<<<< HEAD
         <option value="$PROJECT_DIR$/get_char_vocab.py" />
         <option value="$PROJECT_DIR$/coref_model.py" />
         <option value="$PROJECT_DIR$/demo.py" />
@@ -110,14 +238,29 @@
         <option value="$PROJECT_DIR$/singleton.py" />
         <option value="$PROJECT_DIR$/minimize.py" />
         <option value="$PROJECT_DIR$/README.md" />
+=======
+        <option value="$PROJECT_DIR$/coref_model.py" />
+        <option value="$PROJECT_DIR$/demo.py" />
+        <option value="$PROJECT_DIR$/experiments.conf" />
+        <option value="$PROJECT_DIR$/get_char_vocab.py" />
+        <option value="$PROJECT_DIR$/minimize.py" />
+        <option value="$PROJECT_DIR$/singleton.py" />
+>>>>>>> 0be3c504a2cf555e1151085ba64ec14fb9fecc1a
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
+<<<<<<< HEAD
     <option name="x" value="64" />
     <option name="y" value="-11" />
     <option name="width" value="1857" />
     <option name="height" value="1092" />
+=======
+    <option name="x" value="65" />
+    <option name="y" value="-4" />
+    <option name="width" value="1855" />
+    <option name="height" value="1084" />
+>>>>>>> 0be3c504a2cf555e1151085ba64ec14fb9fecc1a
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
@@ -134,8 +277,11 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+<<<<<<< HEAD
       <pane id="Scratches" />
       <pane id="Scope" />
+=======
+>>>>>>> 0be3c504a2cf555e1151085ba64ec14fb9fecc1a
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -148,13 +294,74 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+<<<<<<< HEAD
         </subPane>
       </pane>
+=======
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="e2e-coref" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="e2e-coref" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="logs" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="e2e-coref" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="e2e-coref" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="logs" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="final" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="e2e-coref" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="e2e-coref" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="logs" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="best_en" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="Scratches" />
+      <pane id="Scope" />
+>>>>>>> 0be3c504a2cf555e1151085ba64ec14fb9fecc1a
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+<<<<<<< HEAD
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+=======
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Font" />
+>>>>>>> 0be3c504a2cf555e1151085ba64ec14fb9fecc1a
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -210,6 +417,7 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <method />
     </configuration>
+<<<<<<< HEAD
     <configuration default="true" type="BashConfigurationType" factoryName="Bash">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="INTERPRETER_PATH" value="/bin/bash" />
@@ -221,6 +429,8 @@
       <envs />
       <method />
     </configuration>
+=======
+>>>>>>> 0be3c504a2cf555e1151085ba64ec14fb9fecc1a
     <configuration default="true" type="PythonConfigurationType" factoryName="Python">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -319,6 +529,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
+<<<<<<< HEAD
     <frame x="64" y="-11" width="1857" height="1092" extended-state="6" />
     <layout>
       <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15180056" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -353,6 +564,31 @@
       </list>
     </option>
   </component>
+=======
+    <frame x="65" y="-4" width="1855" height="1084" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18040952" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3299389" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32985386" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32985386" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32985386" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32982844" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+>>>>>>> 0be3c504a2cf555e1151085ba64ec14fb9fecc1a
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
       <map>
@@ -383,6 +619,7 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="XDebuggerManager">
+<<<<<<< HEAD
     <breakpoint-manager>
       <option name="time" value="1" />
     </breakpoint-manager>
@@ -563,19 +800,37 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1870">
           <caret line="119" column="35" lean-forward="false" selection-start-line="119" selection-start-column="35" selection-end-line="119" selection-end-column="35" />
+=======
+    <breakpoint-manager />
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/.README.md.swp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+>>>>>>> 0be3c504a2cf555e1151085ba64ec14fb9fecc1a
           <folding />
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/worker.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="612">
           <caret line="37" column="49" lean-forward="false" selection-start-line="37" selection-start-column="49" selection-end-line="37" selection-end-column="49" />
           <folding />
+=======
+    <entry file="file://$PROJECT_DIR$/test.english.v4_gold_conll">
+      <provider selected="true" editor-type-id="LargeFileEditor">
+        <state relative-caret-position="300">
+          <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+>>>>>>> 0be3c504a2cf555e1151085ba64ec14fb9fecc1a
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
+<<<<<<< HEAD
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SECOND">
           <first_editor relative-caret-position="612">
@@ -602,20 +857,80 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="307">
           <caret line="315" column="4" lean-forward="false" selection-start-line="315" selection-start-column="4" selection-end-line="315" selection-end-column="4" />
+=======
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="11" column="16" lean-forward="false" selection-start-line="11" selection-start-column="16" selection-end-line="11" selection-end-column="16" />
+>>>>>>> 0be3c504a2cf555e1151085ba64ec14fb9fecc1a
           <folding />
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/parameter_server.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
           <caret line="11" column="22" lean-forward="false" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="22" />
           <folding>
             <element signature="e#23#32#0" expanded="false" />
+=======
+    <entry file="file://$PROJECT_DIR$/coref_model.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="106" column="31" lean-forward="false" selection-start-line="106" selection-start-column="31" selection-end-line="106" selection-end-column="31" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+            <marker date="1530686166325" expanded="true" signature="198:26602" ph="..." />
+            <marker date="1530686166325" expanded="true" signature="3566:5685" ph="..." />
+            <marker date="1530686166325" expanded="true" signature="4536:5076" ph="..." />
+            <marker date="1530686166325" expanded="true" signature="4578:5076" ph="..." />
+            <marker date="1530686166325" expanded="true" signature="4690:5003" ph="..." />
+            <marker date="1530686166325" expanded="true" signature="5818:6881" ph="..." />
+            <marker date="1530686166325" expanded="true" signature="7022:11402" ph="..." />
+            <marker date="1530686166325" expanded="true" signature="7369:8179" ph="..." />
+            <marker date="1530686166325" expanded="true" signature="11486:13399" ph="..." />
+            <marker date="1530686166325" expanded="true" signature="11882:12256" ph="..." />
+            <marker date="1530686166325" expanded="true" signature="12292:13304" ph="..." />
+            <marker date="1530686166325" expanded="true" signature="13445:13617" ph="..." />
+            <marker date="1530686166325" expanded="true" signature="13682:14015" ph="..." />
+            <marker date="1530686166325" expanded="true" signature="14172:16953" ph="..." />
+            <marker date="1530686166325" expanded="true" signature="14331:14960" ph="..." />
+            <marker date="1530686166325" expanded="true" signature="14997:15525" ph="..." />
+            <marker date="1530686166325" expanded="true" signature="16157:16356" ph="..." />
+            <marker date="1530686166325" expanded="true" signature="17012:17481" ph="..." />
+            <marker date="1530686166325" expanded="true" signature="17547:20025" ph="..." />
+            <marker date="1530686166325" expanded="true" signature="17818:17973" ph="..." />
+            <marker date="1530686166325" expanded="true" signature="18012:18441" ph="..." />
+            <marker date="1530686166325" expanded="true" signature="18783:19589" ph="..." />
+            <marker date="1530686166325" expanded="true" signature="18824:19186" ph="..." />
+            <marker date="1530686166325" expanded="true" signature="19227:19589" ph="..." />
+            <marker date="1530686166325" expanded="true" signature="20182:21389" ph="..." />
+            <marker date="1530686166325" expanded="true" signature="20485:20533" ph="..." />
+            <marker date="1530686166325" expanded="true" signature="20578:21389" ph="..." />
+            <marker date="1530686166325" expanded="true" signature="20690:21314" ph="..." />
+            <marker date="1530686166325" expanded="true" signature="20710:20794" ph="..." />
+            <marker date="1530686166325" expanded="true" signature="20815:20975" ph="..." />
+            <marker date="1530686166325" expanded="true" signature="20989:21245" ph="..." />
+            <marker date="1530686166325" expanded="true" signature="21461:21731" ph="..." />
+            <marker date="1530686166325" expanded="true" signature="21565:21698" ph="..." />
+            <marker date="1530686166325" expanded="true" signature="21821:22841" ph="..." />
+            <marker date="1530686166325" expanded="true" signature="21943:22626" ph="..." />
+            <marker date="1530686166325" expanded="true" signature="22265:22446" ph="..." />
+            <marker date="1530686166325" expanded="true" signature="22949:23394" ph="..." />
+            <marker date="1530686166325" expanded="true" signature="23077:23140" ph="..." />
+            <marker date="1530686166325" expanded="true" signature="23423:24054" ph="..." />
+            <marker date="1530686166325" expanded="true" signature="23454:24054" ph="..." />
+            <marker date="1530686166325" expanded="true" signature="24109:26602" ph="..." />
+            <marker date="1530686166325" expanded="true" signature="24158:24376" ph="..." />
+            <marker date="1530686166325" expanded="true" signature="24643:25497" ph="..." />
+            <marker date="1530686166325" expanded="true" signature="25608:25891" ph="..." />
+            <marker date="1530686166325" expanded="true" signature="25760:25851" ph="..." />
+>>>>>>> 0be3c504a2cf555e1151085ba64ec14fb9fecc1a
           </folding>
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/util.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="646">
@@ -635,10 +950,24 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="241">
           <caret line="45" column="3" lean-forward="true" selection-start-line="45" selection-start-column="3" selection-end-line="45" selection-end-column="3" />
+=======
+    <entry file="file://$PROJECT_DIR$/word2vec.300d.txt">
+      <provider selected="true" editor-type-id="LargeFileEditor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/logs/best_en/checkpoint">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="0" lean-forward="true" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+>>>>>>> 0be3c504a2cf555e1151085ba64ec14fb9fecc1a
           <folding />
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/singleton.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="374">
@@ -653,10 +982,25 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="502">
           <caret line="1160" column="67" lean-forward="false" selection-start-line="1160" selection-start-column="67" selection-end-line="1160" selection-end-column="67" />
+=======
+    <entry file="file:///usr/local/lib/python2.7/dist-packages/tensorflow/python/training/saver.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="361">
+          <caret line="1475" column="7" lean-forward="false" selection-start-line="1475" selection-start-column="7" selection-end-line="1475" selection-end-column="7" />
           <folding />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/demo.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="276">
+          <caret line="74" column="19" lean-forward="false" selection-start-line="74" selection-start-column="19" selection-end-line="74" selection-end-column="19" />
+>>>>>>> 0be3c504a2cf555e1151085ba64ec14fb9fecc1a
+          <folding />
+        </state>
+      </provider>
+    </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/coref_model.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="298">
@@ -687,6 +1031,21 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="361">
           <caret line="1475" column="7" lean-forward="false" selection-start-line="1475" selection-start-column="7" selection-end-line="1475" selection-end-column="7" />
+=======
+    <entry file="file://$PROJECT_DIR$/experiments.conf">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="812">
+          <caret line="99" column="17" lean-forward="false" selection-start-line="99" selection-start-column="17" selection-end-line="99" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/minimize.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="23" column="25" lean-forward="true" selection-start-line="23" selection-start-column="25" selection-end-line="23" selection-end-column="25" />
+          <folding />
+>>>>>>> 0be3c504a2cf555e1151085ba64ec14fb9fecc1a
         </state>
       </provider>
     </entry>
@@ -694,6 +1053,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
           <caret line="17" column="72" lean-forward="true" selection-start-line="17" selection-start-column="72" selection-end-line="17" selection-end-column="72" />
+<<<<<<< HEAD
+=======
+          <folding />
+>>>>>>> 0be3c504a2cf555e1151085ba64ec14fb9fecc1a
         </state>
       </provider>
     </entry>
@@ -701,6 +1064,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="258">
           <caret line="27" column="1" lean-forward="false" selection-start-line="27" selection-start-column="1" selection-end-line="27" selection-end-column="1" />
+<<<<<<< HEAD
         </state>
       </provider>
     </entry>
@@ -716,10 +1080,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1085">
           <caret line="19" column="62" lean-forward="false" selection-start-line="19" selection-start-column="62" selection-end-line="19" selection-end-column="62" />
+=======
+>>>>>>> 0be3c504a2cf555e1151085ba64ec14fb9fecc1a
           <folding />
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/coref_model.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1360">
@@ -734,12 +1101,19 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="626">
           <caret line="46" column="55" lean-forward="false" selection-start-line="46" selection-start-column="55" selection-end-line="46" selection-end-column="55" />
+=======
+    <entry file="file://$PROJECT_DIR$/util.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="21" column="20" lean-forward="true" selection-start-line="21" selection-start-column="20" selection-end-line="21" selection-end-column="20" />
+>>>>>>> 0be3c504a2cf555e1151085ba64ec14fb9fecc1a
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/singleton.py">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="269">
           <caret line="36" column="0" lean-forward="true" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
           <folding>
@@ -792,6 +1166,10 @@
       <provider editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="11" column="16" lean-forward="false" selection-start-line="11" selection-start-column="16" selection-end-line="11" selection-end-column="16" />
+=======
+        <state relative-caret-position="208">
+          <caret line="18" column="14" lean-forward="false" selection-start-line="18" selection-start-column="11" selection-end-line="18" selection-end-column="14" />
+>>>>>>> 0be3c504a2cf555e1151085ba64ec14fb9fecc1a
           <folding />
         </state>
       </provider>
