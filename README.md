@@ -10,8 +10,8 @@ This repository contains the code for replicating results from
 A demo of the code can be found here: http://e2e-coref.kentonl.com.
 
 ### Requirements
-* Python 2.7
-  * TensorFlow 1.0.0
+* Python 3.5
+  * TensorFlow 1.7.0
   * pyhocon (for parsing the configurations)
   * NLTK (for sentence splitting and tokenization in the demo)
 

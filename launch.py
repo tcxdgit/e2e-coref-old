@@ -8,7 +8,7 @@ import util
 def screen(py_script, name, args):
   bash = "source ~/.bashrc; python {} {}; exec bash".format(py_script, " ".join(str(a) for a in args))
   command = ["screen", "-dmS", name, "bash", "-c", bash]
-  print " ".join(command)
+  print(" ".join(command))
   sp.call(command)
 
 if __name__ == "__main__":

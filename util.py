@@ -6,6 +6,7 @@ import json
 import numpy as np
 import tensorflow as tf
 import pyhocon
+import codecs
 
 def make_summary(value_dict):
   return tf.Summary(value=[tf.Summary.Value(tag=k, simple_value=v) for k,v in value_dict.items()])
@@ -17,11 +18,11 @@ def get_config(filename):
   return pyhocon.ConfigFactory.parse_file(filename)
 
 def print_config(config):
-  print pyhocon.HOCONConverter.convert(config, "hocon")
+  print(pyhocon.HOCONConverter.convert(config, "hocon"))
 
 def set_gpus(*gpus):
   os.environ["CUDA_VISIBLE_DEVICES"] = ",".join(str(g) for g in gpus)
-  print "Setting CUDA_VISIBLE_DEVICES to: {}".format(os.environ["CUDA_VISIBLE_DEVICES"])
+  print("Setting CUDA_VISIBLE_DEVICES to: {}".format(os.environ["CUDA_VISIBLE_DEVICES"]))
 
 def mkdirs(path):
   try:
@@ -31,12 +32,20 @@ def mkdirs(path):
       raise
   return path
 
+# def load_char_dict(char_vocab_path):
+#   vocab = [u"<unk>"]
+#   with open(char_vocab_path) as f:
+#     vocab.extend(unicode(c, "utf-8").strip() for c in f.readlines())
+#   char_dict = collections.defaultdict(int)
+#   char_dict.update({c:i for i,c in enumerate(vocab)})
+#   return char_dict
+
 def load_char_dict(char_vocab_path):
   vocab = [u"<unk>"]
-  with open(char_vocab_path) as f:
-    vocab.extend(unicode(c, "utf-8").strip() for c in f.readlines())
+  with codecs.open(char_vocab_path, encoding="utf-8") as f:
+    vocab.extend(l.strip() for l in f.readlines())
   char_dict = collections.defaultdict(int)
-  char_dict.update({c:i for i,c in enumerate(vocab)})
+  char_dict.update({c:i for i, c in enumerate(vocab)})
   return char_dict
 
 def load_embedding_dict(embedding_path, embedding_size, embedding_format):
@@ -48,7 +57,13 @@ def load_embedding_dict(embedding_path, embedding_size, embedding_format):
     for i, line in enumerate(f.readlines()):
       if skip_first and i == 0:
         continue
-      splits = line.split()
+      splits = line.split(" ")
+      if len(splits) == embedding_size + 1:
+        pass
+      else:
+        print(i)
+        print(line)
+        print(splits)
       assert len(splits) == embedding_size + 1
       word = splits[0]
       embedding = np.array([float(s) for s in splits[1:]])
@@ -71,7 +86,7 @@ def ffnn(inputs, num_hidden_layers, hidden_size, output_size, dropout, output_we
   else:
     current_inputs = inputs
 
-  for i in xrange(num_hidden_layers):
+  for i in range(num_hidden_layers):
     hidden_weights = tf.get_variable("hidden_weights_{}".format(i), [shape(current_inputs, 1), hidden_size])
     hidden_bias = tf.get_variable("hidden_bias_{}".format(i), [hidden_size])
     current_outputs = tf.nn.relu(tf.matmul(current_inputs, hidden_weights) + hidden_bias)

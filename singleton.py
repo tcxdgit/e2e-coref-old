@@ -14,21 +14,21 @@ import util
 
 if __name__ == "__main__":
 
-  name = 'best'
-  # if len(sys.argv) > 1:
-  #   name = sys.argv[1]
-  # else:
-  #   name = os.environ["EXP"]
+  # name = 'best'
+  if len(sys.argv) > 1:
+    name = sys.argv[1]
+  else:
+    name = os.environ["EXP"]
   config = util.get_config("experiments.conf")[name]
   report_frequency = config["report_frequency"]
 
   config["log_dir"] = util.mkdirs(os.path.join(config["log_root"], name))
   util.print_config(config)
 
-  # if "GPU" in os.environ:
-  #   util.set_gpus(int(os.environ["GPU"]))
-  # else:
-  #   util.set_gpus()
+  if "GPU" in os.environ:
+    util.set_gpus(int(os.environ["GPU"]))
+  else:
+    util.set_gpus()
 
   model = cm.CorefModel(config)
   saver = tf.train.Saver()
@@ -46,8 +46,8 @@ if __name__ == "__main__":
 
   # The supervisor takes care of session initialization, restoring from
   # a checkpoint, and closing when done or an error occurs.
-  session_conf = tf.ConfigProto(allow_soft_placement=True, log_device_placement=True)
-  with sv.managed_session(config=session_conf) as session:
+  # session_conf = tf.ConfigProto(allow_soft_placement=False, log_device_placement=False)
+  with sv.managed_session() as session:
     model.start_enqueue_thread(session)
     accumulated_loss = 0.0
     initial_time = time.time()
@@ -60,7 +60,7 @@ if __name__ == "__main__":
         steps_per_second = tf_global_step / total_time
 
         average_loss = accumulated_loss / report_frequency
-        print "[{}] loss={:.2f}, steps/s={:.2f}".format(tf_global_step, average_loss, steps_per_second)
+        print("[{}] loss={:.2f}, steps/s={:.2f}".format(tf_global_step, average_loss, steps_per_second))
         writer.add_summary(util.make_summary({"loss": average_loss}), tf_global_step)
         accumulated_loss = 0.0
 

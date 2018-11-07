@@ -76,11 +76,11 @@ def official_conll_eval(gold_path, predicted_path, metric, official_stdout=False
   process.wait()
 
   if stderr is not None:
-    print stderr
+    print(stderr)
 
   if official_stdout:
-    print "Official result for {}".format(metric)
-    print stdout
+    print("Official result for {}".format(metric))
+    print(stdout)
 
   coref_results_match = re.match(COREF_RESULTS_REGEX, stdout)
   recall = float(coref_results_match.group(1))

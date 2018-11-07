@@ -7,7 +7,8 @@ import json
 import numpy as np
 
 import cgi
-from BaseHTTPServer import HTTPServer, BaseHTTPRequestHandler
+# from BaseHTTPServer import HTTPServer, BaseHTTPRequestHandler
+from http.server import HTTPServer, BaseHTTPRequestHandler
 import ssl
 
 import tensorflow as tf
@@ -72,15 +73,15 @@ def make_predictions(text, model):
   return example
 
 if __name__ == "__main__":
-  util.set_gpus()
-
+  # util.set_gpus()
+  # name = 'final'
   name = sys.argv[1]
   if len(sys.argv) > 2:
     port = int(sys.argv[2])
   else:
     port = None
 
-  print "Running experiment: {}.".format(name)
+  print("Running experiment: {}.".format(name))
   config = util.get_config("experiments.conf")[name]
   config["log_dir"] = util.mkdirs(os.path.join(config["log_root"], name))
 
@@ -91,7 +92,8 @@ if __name__ == "__main__":
   log_dir = config["log_dir"]
 
   with tf.Session() as session:
-    checkpoint_path = os.path.join(log_dir, "model.max.ckpt")
+    # checkpoint_path = os.path.join(log_dir, "model.max.ckpt")
+    checkpoint_path = tf.train.latest_checkpoint(log_dir)
     saver.restore(session, checkpoint_path)
 
     if port is not None:
@@ -101,5 +103,5 @@ if __name__ == "__main__":
       server.serve_forever()
     else:
       while True:
-        text = raw_input("Document text: ")
+        text = input("Document text: ")
         print_predictions(make_predictions(text, model))
